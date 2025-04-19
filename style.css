@@ -1,0 +1,102 @@
+.tipoFlex{
+    display: flex;
+    background-color: rgb(254, 218, 110);
+    align-items: center;
+    justify-content: space-between;
+    resize: both;
+
+}
+
+.tipohidden{
+
+    background-color: rgb(228, 0, 0);
+    font-size: 20px;
+    margin: 35px;
+    color: rgb(30, 221, 30);
+    visibility: hidden;
+
+
+}
+.tipohidden2{
+
+    background-color: rgb(228, 0, 0);
+    font-size: 20px;
+    margin: 50px;
+    color: rgb(30, 221, 30);
+    visibility: hidden;
+
+
+}
+.clase_estatic{
+
+    font-size: 20px;
+    background-color: rgb(58, 224, 86);
+    position: static;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 700px;
+    
+}
+h2{
+background-color: chocolate;
+
+}
+
+.clase_relative{
+    font-size: 20px;
+    background-color: rgb(133, 218, 171);
+    height: 80px;
+    width: 250px;
+    margin-right: 240px;
+}
+.clase_relative:hover {
+position: relative;
+top: -30px;
+left: 20px;
+
+}
+.clase_estatic2{
+
+    font-size: 20px;
+    background-color: rgb(58, 224, 86);
+    position: static;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 900px;
+    
+}
+.container{
+position: relative;
+
+}
+
+input{
+width: 350px;
+padding: 10px;
+padding-right: 35px;
+border-radius: 5px;
+border: 0;
+outline: none;
+font-size: 1rem;
+
+}
+
+button {
+background-color: coral;
+padding: 10px 15px;
+position: absolute;
+border: 0;
+top: 0;
+bottom: 0;
+right: 100;
+margin: auto;
+border-radius: 0  5px 5px 0;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+
+button:hover{
+background-color: orange;
+
+}
+
