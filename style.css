@@ -37,8 +37,23 @@
     margin-right: 700px;
     
 }
+
+.clase_estatic3{
+
+    font-size: 20px;
+    background-color: rgb(58, 224, 86);
+    position: static;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 640px;
+    
+}
+
 h2{
 background-color: chocolate;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 36px;
+letter-spacing: 4px;
 
 }
 
@@ -62,7 +77,7 @@ left: 20px;
     position: static;
     margin-top: 20px;
     margin-left: 180px;
-    margin-right: 900px;
+    margin-right: 800px;
     
 }
 .container{
@@ -100,3 +115,45 @@ background-color: orange;
 
 }
 
+.ClaseNav{
+    background-color: rgba(40, 240, 83, 0.808);
+    font-size: 32px;
+    padding-inline: 2px;
+    color: black;
+    display: inline;
+    list-style-type: none;
+    
+    }
+    
+    .ClaseNav a:hover {
+    background-color: rgb(164, 228, 61);
+    }
+
+.tipohidden3{
+
+        background-color: rgb(228, 0, 0);
+        font-size: 20px;
+        margin: 20px;
+        color: rgb(30, 221, 30);
+        visibility: hidden;
+    
+    
+    }
+
+.clase_fixed{
+        height: 180px;
+        width: 210px;
+        position: fixed;
+        left: 480px;
+        bottom: 220px;
+        z-index: -10;
+    
+    }
+    
+.Agua_de_Marca{
+    
+    opacity: 0.280;
+    pointer-events: none;
+    z-index: 10;
+    
+    }
