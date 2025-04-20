@@ -157,3 +157,18 @@ background-color: orange;
     z-index: 10;
     
     }
+
+.casita{
+        font-size: 20px;
+        background-color: rgb(58, 224, 86);
+        position: absolute;
+        left: 1080px;
+        bottom: -4720px;
+        z-index: 10;
+        border: 2px; 
+    }    
+
+
+
+
+
